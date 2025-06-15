@@ -15,17 +15,22 @@ public class MainMenu : MonoBehaviour
     public GameObject settingUI;
 
     //pour la gestion du NameTag
+    [Header("User Name")]
+    [SerializeField]
+    private Text userName;
     TouchScreenKeyboard clavier; //pour le clavier 
     public static string NameTag; //le pseudo du joueur 
 
     void Start()
     {
         VolumeAudioChange();
-        NameTag = PlayerPrefs.GetString("nameTag", "INCONU");
+        NameTag = PlayerPrefs.GetString("nameTag", "User");
     }
 
     private void Update()
     {
+        userName.text = "Hello, " + PlayerPrefs.GetString("nameTag", "User");
+
         if (!TouchScreenKeyboard.visible && clavier != null) //lorsque le clavier est visible et qu'il y'a une saisi 
         {
             if (clavier.done) //si on valide la saisi
