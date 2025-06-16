@@ -9,10 +9,11 @@ public class MainMenu : MonoBehaviour
     public Slider audioSlider;
     public Text VolumeAudioText;
 
-    // Panel pour le SceneFader et le Setting
+    // Panel pour le SceneFader, coming soon et le Setting
     [Header("Fader Panel")]
     public SceneFader sceneFader;
     public GameObject settingUI;
+    public GameObject comingSoonPanel;
 
     //pour la gestion du NameTag
     [Header("User Name")]
@@ -82,6 +83,17 @@ public class MainMenu : MonoBehaviour
     {
         audioSource.Play();
         settingUI.SetActive(false);
+    }
+    public void Panel()
+    {
+        audioSource.Play();
+        comingSoonPanel.SetActive(true);
+    }
+
+    public void QuitPanel()
+    {
+        audioSource.Play();
+        comingSoonPanel.SetActive(false);
     }
 
     public void Quit()
