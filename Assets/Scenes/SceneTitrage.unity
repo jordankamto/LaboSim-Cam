@@ -1728,7 +1728,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!223 &831398963661906098
 Canvas:
@@ -1751,7 +1751,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!1 &854539034470705481
 GameObject:
@@ -1834,8 +1834,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xC0 l\u2019aide d\u2019un b\xE9cher, \npr\xE9levez une quantit\xE9 d\u2019eau
-    distill\xE9e, puis versez-la d\xE9licatement dans \nune fiole jaug\xE9e propre."
+  m_Text: "Versez une solution de soude (NaOH, base forte) dans une burette propre,
+    en vous assurant d'\xE9liminer les bulles d'air et de noter le\_volume\_initial."
 --- !u!1 &956630931806540144
 GameObject:
   m_ObjectHideFlags: 0
@@ -2087,9 +2087,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "M\xE9langez doucement la solution en agitant la fiole. Vous observez un
-    l\xE9ger \xE9chauffement accompagn\xE9 d\u2019un changement de teinte : la solution
-    prend une couleur jaune p\xE2le."
+  m_Text: "Versez lentement la base depuis la burette dans l\u2019erlenmeyer, en
+    agitant doucement, jusqu\u2019\xE0 observer un changement de couleur stable (rose
+    p\xE2le si ph\xE9nolphtal\xE9ine)."
 --- !u!223 &2225809650516390171
 Canvas:
   m_ObjectHideFlags: 0
@@ -3029,9 +3029,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Versez lentement l\u2019acide sulfurique concentr\xE9 dans la fiole contenant
-    l\u2019eau, goutte \xE0 goutte ou en mince filet, tout en maintenant la fiole
-    inclin\xE9e.\r"
+  m_Text: "Pr\xE9levez une quantit\xE9 mesur\xE9e d\u2019acide chlorhydrique (HCl)
+    dans un erlenmeyer, ajoutez quelques gouttes d\u2019indicateur color\xE9 (comme
+    le ph\xE9nolphtal\xE9ine)."
 --- !u!114 &6118526221661438833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3151,7 +3151,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Pr\xE9paration de la solution aqueuse"
+  m_Text: Remplissage de la burette
 --- !u!114 &6603976436697484379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3302,7 +3302,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ajout progressif de l\u2019acide"
+  m_Text: "Pr\xE9paration de la solution\_\xE0\_titrer"
 --- !u!224 &7127875731289655986
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3447,7 +3447,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Homog\xE9n\xE9isation et observation"
+  m_Text: "Titrage et changement de\_couleur"
 --- !u!222 &7936645198856693976
 CanvasRenderer:
   m_ObjectHideFlags: 0
